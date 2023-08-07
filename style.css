@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: #F7F8F8;
+    height: 120px;
+    position: relative;  
+}
+a img{
+    height: 23px;
+    width: 22px;
+    margin-left: 30px;
+}
+.logoblue{
+    width: 35px;
+    height: 18px;
+}
+.headertext{
+    text-decoration: none;
+    color: black;
+    font-size: 62%;
+    font-family: Helvetica, sans-serif;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.header{
+    padding: 12px;
+}
+.logoblack{
+    width: 65px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+}
+.location{
+    border-radius: 3px;
+    border: 2px solid #002F34;
+    margin-left: 35px;
+    margin-top: 5px;
+    width: 250px;
+    height: 44px;
+    position: absolute;
+    padding-left: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+.searchbar{
+    border-radius: 3px 3px 3px 3px;
+    border: 2px solid #002F34;
+    margin-left: 300px;
+    margin-top: 5px;
+    width: 690px; 
+    height: 44px;
+    position: absolute;
+    padding-left: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+#search{
+    width: 42px;
+    height: 44px;
+    background-color: #002F34;
+    position: absolute;
+    margin-left: 986px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+button img{
+    height:25px;
+    width: 25px;
+    vertical-align: middle;
+}
+#login a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #002F34;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 1160px;
+    top: 20px;
+}
+#login a:hover{
+    text-decoration: none;
+}
+#sell{
+    position: absolute;
+    margin-left: 1115px;
+}
+#sell img{
+    width: auto;
+    height: 45px;
+}
+#sell img~a{
+    text-decoration: none;
+    color: #002F34;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
